@@ -1,6 +1,7 @@
 package mod
 
-type Mysql struct {
+type Database struct {
+	Driver   string `json:"driver"`
 	Host     string `json:"host"`
 	Port     int    `json:"port"`
 	User     string `json:"user"`
