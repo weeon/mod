@@ -26,3 +26,7 @@ type Telegram struct {
 	Name  string `json:"name"`
 	Token string `json:"token"`
 }
+
+type Mongo struct {
+	Uri string `json:"uri"`
+}
