@@ -18,6 +18,7 @@ type Redis struct {
 
 type InfluxDB struct {
 	Addr     string
+	Token    string // for v2
 	Username string
 	Password string
 }
