@@ -31,3 +31,10 @@ type Telegram struct {
 type Mongo struct {
 	Uri string `json:"uri"`
 }
+
+type Minio struct {
+	Endpoint        string
+	AccessKeyID     string
+	SecretAccessKey string
+	UseSSL          bool
+}
