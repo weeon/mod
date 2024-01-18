@@ -7,6 +7,7 @@ type Database struct {
 	User     string `json:"user"`
 	Password string `json:"password"`
 	Database string `json:"database"`
+	TLS      bool   `json:"tls"`
 }
 
 type Redis struct {
